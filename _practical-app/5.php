@@ -12,18 +12,27 @@
 <article class="main-content col-xs-8">
 
 	
-	<?php  
-
-/*  Step1: Use a pre-built math function here to anything
+	<?php 
 
 
-	Step 2:  Use a pre-built string function here to anything
+/*  Step1: Use a pre-built math function here and echo it
 
 
-	Step 3:  Use a pre-built Array function here to anything
+	Step 2:  Use a pre-built string function here and echo it
+
+
+	Step 3:  Use a pre-built Array function here and echo it
 
  */
 
+	$list = array(123, 23, 32423, 6);
+
+	echo sqrt(69) . "<br>";
+
+	echo strlen("bob") . "<br>";
+
+	sort($list);
+	print_r($list) . "<br>";
 	
 ?>
 

@@ -17,7 +17,6 @@
 /*  Step1: Make an if Statement with elseif and else to finally display string saying, I love PHP
 
 
-
 	Step 2: Make a forloop  that displays 10 numbers
 
 
@@ -25,7 +24,38 @@
 
  */
 
-	
+	if (6 < 5) {
+		echo "nope";
+	} else if (7 < 5) {
+		echo "nope";
+	} else {
+		echo "I love php" . "<br>";
+	}
+
+	for ($i = 0; $i < 10; $i++) {
+		echo $i . "<br>";
+	}
+
+	$number = 5;
+	switch ($number) {
+		case 1:
+			echo "1";
+			break;
+		case 2:
+			echo "2";
+			break;
+		case 3:
+			echo "3";
+			break;
+		case 4:
+			echo "4";
+			break;
+		case 5:
+			echo "5" . "<br>";
+			break;
+		default:
+			break;
+	}
 ?>
 
 

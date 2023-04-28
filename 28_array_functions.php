@@ -8,29 +8,23 @@
 
 <?php 
 
-if(3 > 10){
+$list = [343,34,323,23,54,232,453];
 
-echo "three is less than ten";
+echo max($list);
 
-} elseif( 4 > 5) {
-
-echo "of course four is less than five";
-
-}
-
-else {
-
-echo "it is not";
-
-}
-
+echo "<br>";
     
+echo min($list);
+
+
+echo "<br>";
+
+sort($list);
     
+print_r($list);
+
+
 ?>
-
-
-
-
 
 </body>
 </html>
